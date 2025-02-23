@@ -5,8 +5,6 @@ import java.util.List;
 public class RestaurantService {
     private static List<Restaurant> restaurants = new ArrayList<>();
 
-    public Restaurant findRestaurantByName(String restaurantName){
-        return null;
     public Restaurant findRestaurantByName(String restaurantName) throws restaurantNotFoundException {
 
         //DELETE ABOVE STATEMENT AND WRITE CODE HERE
@@ -40,5 +38,4 @@ public class RestaurantService {
     public List<Restaurant> getRestaurants() {
         return restaurants;
     }
-}
 }
